@@ -1,5 +1,7 @@
 <template>
-  <h1 id="track-text" v-if="isVisible">hello track</h1>
+  <div id="track-text" v-if="isVisible">
+    <p>hello track</p>
+  </div>
 </template>
 
 <script lang="ts">
@@ -17,7 +19,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
-h1 {
-    color: black
+p {
+    color: black;
+    font-size: 2.8vw;
 }
 </style>
