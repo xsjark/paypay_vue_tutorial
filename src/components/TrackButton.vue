@@ -1,5 +1,5 @@
 <template>
-  <button id="track-button" @click="emitClick">Click Me</button>
+  <button id="track-button" @click="emitClick">Click me!!</button>
 </template>
 
 <script lang="ts">
